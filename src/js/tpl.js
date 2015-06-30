@@ -30,8 +30,8 @@
 }(this, function(root) {
     'use strict';
     var o = {
-        sTag: '{%',//开始标签
-        eTag: '%}',//结束标签
+        sTag: '{{',//开始标签
+        eTag: '}}',//结束标签
         compress: false,//是否压缩html
         escape: true, //默认输出是否进行HTML转义
         error: function (e) {}//错误回调
